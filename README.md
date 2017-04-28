@@ -84,6 +84,19 @@ The user motion can be specified in either dynamic or static mode:
 ```
 > gps-sdr-sim -e brdc3540.14n -l 30.286502,120.032669,100
 ```
+Note: In use of Hackrf One SHould:
+
+```
+> gps-sdr-sim -e brdc3540.14n -u circle.csv -b 8 
+```
+
+```
+> gps-sdr-sim -e brdc3540.14n -g triumphv3.txt -b 8
+```
+
+```
+> gps-sdr-sim -e brdc3540.14n -l 30.286502,120.032669,100 -b 8
+```
 
 ### Transmitting the samples
 
