@@ -104,8 +104,6 @@ Note: For Create Virtual Dynamic roud in GPS Reciver you should:
 2. Add as many Placemarks as needed, including pertinent information for each.
 3. Export route data by Export to KML file
 4. Convert kml file to csv and use: gps-sdr-sim -e brdc3540.14n -u circle.csv
-5. OR use of kml file by: gps-sdr-sim -e brdc3540.14n -u circle.kml
-
 ```
 
 ### Transmitting the samples
