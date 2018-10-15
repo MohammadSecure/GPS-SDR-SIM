@@ -148,3 +148,19 @@ For UHD supported devices (tested with USRP2 only):
 
 Copyright &copy; 2015 Takuji Ebinuma  
 Distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+
+
+#### Note
+Hi
+I'm very near to success, but the phones cannot lock to all (fake) satellite signals.
+I played with all gain settings (from 0 to 35) and I tried putting my phone at various distances from the HackRF (from a few centimeters to 5 meters), but still the best I get is this:
+
+http://i.imgur.com/P0WJmSZ.png
+
+http://i.imgur.com/izF0qrf.png
+
+I also connected a 30dB attenuator to the output of HackRF, but that didn't help at all (in fact with attenuator, my phone could not detect the signals at all)
+I also used the latest file available: brdc3370.15n
+
+Thank you very much for your time
+Mehdi
