@@ -168,4 +168,4 @@ Mehdi
 For the HackRF:
 
 ```
-> hackrf_transfer -t gpssim.bin -f 1575414000 -s 2600000 -a 1 -x 0
+> hackrf_transfer -t gpssim.bin -f 1575414000 -s 2600000 -a 1 -x 47 -R
