@@ -164,3 +164,8 @@ http://i.imgur.com/JMkG8Yt.png
 I think my problem lies in software, because the HackRF is not faulty (I have tried sending on a lot of frequencies and it works)
 
 Mehdi
+
+For the HackRF:
+
+```
+> hackrf_transfer -t gpssim.bin -f 1575414000 -s 2600000 -a 1 -x 0
