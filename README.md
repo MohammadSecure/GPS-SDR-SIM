@@ -150,7 +150,7 @@ Copyright &copy; 2015 Takuji Ebinuma
 Distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 
-#### Note
+#### Note -> https://github.com/osqzss/gps-sdr-sim/issues/26
 Hi
 I'm very near to success, but the phones cannot lock to all (fake) satellite signals.
 I played with all gain settings (from 0 to 35) and I tried putting my phone at various distances from the HackRF (from a few centimeters to 5 meters), but still the best I get is this:
