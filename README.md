@@ -151,16 +151,16 @@ Distributed under the [MIT License](http://www.opensource.org/licenses/mit-licen
 
 
 #### Note -> https://github.com/osqzss/gps-sdr-sim/issues/26
-Hi
-I'm very near to success, but the phones cannot lock to all (fake) satellite signals.
-I played with all gain settings (from 0 to 35) and I tried putting my phone at various distances from the HackRF (from a few centimeters to 5 meters), but still the best I get is this:
+Hello again
+I thought I should let you know this:
+Via playing with frequencies, I thought maybe my HackRF has some frequency drift/offset.
+Here's a picture of sending on 1,575,420,000 HZ :
+http://i.imgur.com/rFUYAbM.png
 
-http://i.imgur.com/P0WJmSZ.png
+And here's when sending on 1,575,414,000 HZ:
+http://i.imgur.com/JMkG8Yt.png
+(This is the closest thing I've managed to get yet, although it still does not lock)
 
-http://i.imgur.com/izF0qrf.png
+I think my problem lies in software, because the HackRF is not faulty (I have tried sending on a lot of frequencies and it works)
 
-I also connected a 30dB attenuator to the output of HackRF, but that didn't help at all (in fact with attenuator, my phone could not detect the signals at all)
-I also used the latest file available: brdc3370.15n
-
-Thank you very much for your time
 Mehdi
